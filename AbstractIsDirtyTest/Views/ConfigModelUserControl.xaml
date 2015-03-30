@@ -11,7 +11,7 @@
     <StackPanel HorizontalAlignment="Center"
                 VerticalAlignment="Center">
         
-        <TextBlock Text="{Binding IsDirty, StringFormat=IsDirty: {0}}" 
+        <TextBlock Text="{Binding IsDirtyInfo, StringFormat=IsDirty: {0}}" 
                    FontSize="30"
                    FontWeight="Bold"/>
             

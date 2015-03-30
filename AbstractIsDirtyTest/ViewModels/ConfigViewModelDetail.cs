@@ -44,6 +44,12 @@ namespace AbstractIsDirtyTest
             return hashCode;
         }
 
+        public bool IsDirtyInfo
+        {
+            // DEBUG: Place breakpoint here
+            get { return IsDirty; }
+        }
+
         // Default ctor
         public ConfigViewModelDetail() 
         {
